@@ -1,0 +1,27 @@
+{
+  "name": "nmp_package_test",
+  "version": "0.1.0",
+  "description": "Prueba de paquete NPM",
+  "main": "dist/src/namegen.js",
+  "scripts": {
+    "build": "babel src/namegen.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yitodeveloper/npm_package_test.git"
+  },
+  "keywords": [
+    "js",
+    "prueba",
+    "npm"
+  ],
+  "author": "Rodrigo Ramirez <yitodeveloper@gmail.com> (https://github.com/yitodeveloper)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
